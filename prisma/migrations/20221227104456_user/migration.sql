@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `user` ALTER COLUMN `password` DROP DEFAULT,
+    MODIFY `role` VARCHAR(191) NOT NULL DEFAULT 'user';
